@@ -4,21 +4,59 @@ using System.Text;
 
 namespace MyProject1
 {
-    class Class14
+    class Percentage
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter the Cost Price");
-            int  num1 = int.Parse(Console.ReadLine());
-            Console.WriteLine("Enter the Selling Price");
-            int num2  = int.Parse(Console.ReadLine());
-            Console.WriteLine("Enter the Profit");
+            Console.WriteLine("Enter the 1st number");
+            int num1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter the 2nd number");
+            int num2 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter the 3rd number");
             int num3 = int.Parse(Console.ReadLine());
-            num3 = num1 + num2 ;
-            // profit = cost price + selling price // 
-            num3 = 20 ;
-            num1 = 15;
-          //  Console WriteLine( " Enter the Selling Price ( num2) =") ;
+            Console.WriteLine("Enter the 4th number");
+            int num4 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter the 5th number");
+            int num5 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Total Marks =" + (num1 + num2 + num3 + num4 + num5));
+            Console.WriteLine("Average=" + (num1 + num2 + num3 + num4 + num5) / 5);
+            Console.WriteLine("Percentage=" + (num1 + num2 + num3 + num4 + num5 / 500) * 100);
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            
+
+            
+            
+           
+            
+          
 
             
 

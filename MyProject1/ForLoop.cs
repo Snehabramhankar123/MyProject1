@@ -4,29 +4,15 @@ using System.Text;
 
 namespace MyProject1
 {
-    class Alphabet
+    class ForLoopEx
     {
         static void Main(string[] args)
         {
+            for (int i = 1; i <= 10; i++) 
 
-
-            for (char i = 'A'; i <= 'Z'; i++)
             {
-                Console.WriteLine(i);
+                Console.WriteLine( "hi" );
             }
-
         }
-
     }
 }
-    
-    
-    
-            
-               
-            
-        
-    
-
-
-

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MyProject1
 {
-    class ClassTable
+    class TableOfNumber
     {
 
         static void Main(string[] args)
@@ -13,9 +13,10 @@ namespace MyProject1
 
             int num  = int.Parse(Console.ReadLine());
             
-            for ( int i  = 1; i <= 10;  i++) ;
-            Console.WriteLine("num*i");
-
+            for ( int i  = 1; i <= 10;  i++) 
+            {
+                Console.WriteLine(num*i);
+            }
         }
     }
 }

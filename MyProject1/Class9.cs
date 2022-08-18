@@ -8,11 +8,13 @@ namespace MyProject1
     {
         static void Main(string[] args)
         {
-            
-            
-            
-            for (int i = 15; i >= 11; i--) ;
-            Console.WriteLine("i");
+
+
+
+            for (int i = 15; i >= 11; i--)
+            {
+                Console.WriteLine(i);
+            }
         }
     }
 }
