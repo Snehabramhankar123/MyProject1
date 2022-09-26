@@ -1,8 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace MyProject1
+using System.Collections.Generic;                 //OUTPUT*:1
+                                                  //     *  12  
+using System.Text;                                     //   *  123
+                                                         // *1234
+namespace MyProject1                                      // *12345
 {
     class PatternS
     {
@@ -24,7 +25,7 @@ namespace MyProject1
     }
 }
  
-         for(int r=5;)
+        
 
-
+                       
 

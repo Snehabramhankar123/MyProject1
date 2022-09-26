@@ -1,9 +1,25 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-	  <StartupObject>MyProject1.PatternS</StartupObject>
-  </PropertyGroup>
+
+
+	  <StartupObject>MyProject1.StringPrograms.Anagram</StartupObject>
+	  
+	  
+
+
+
+</PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Test10SeptOOPS" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ARRAYPrograms\NewFolder2\" />
+    <Folder Include="NewFolder\" />
+  </ItemGroup>
 
 </Project>

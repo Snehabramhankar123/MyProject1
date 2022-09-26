@@ -4,21 +4,19 @@ using System.Text;
 
 namespace MyProject1
 {
-    class BreakClass
+    class PatternAAAAABBBB
     {
         static void Main(string[] args)
         {
-            for(int i= 1; i<= 5; i++)
+            for(char r='E';r>='A';r--)
             {
-                if (i == 3)
+                for(char c='A';c<='r';c++)
                 {
-                    break;
+                    Console.Write(c);
                 }
-                Console.WriteLine(i);                 
-
-                
+                Console.WriteLine();
+                Console.ReadLine();
             }
-
         }
     }
 }
