@@ -16,6 +16,12 @@ namespace MyProject1.StringPrograms
             int idx2 = s.LastIndexOf('o');
             string t = s.Trim();
             string s3 = s.Substring(2);
+            string s4 = s.Substring(3, 7);
+            Console.WriteLine(s4);
+            Console.WriteLine(s3);
+            Console.WriteLine(idx);
+            Console.WriteLine(idx1);
+            Console.WriteLine(t);
         }
     }
         class StringDemo
@@ -28,7 +34,8 @@ namespace MyProject1.StringPrograms
 
                 string s = "Sneha Bramhankar ";
                 int i = 2;
-                // int s1 = s.ToString(0, i) + s.ToString(i + 1);
+                 string s1 = s.Substring(0, i) + s.Substring(i + 1);
+              Console.WriteLine(s1);
 
             }
         }
@@ -38,8 +45,9 @@ namespace MyProject1.StringPrograms
         {
             string s = "my name is Sakshi";
             char[] arr = s.ToCharArray();
-            string[] sarr = s.Split();
+            //string[] sarr = s.Split();
             Console.WriteLine(s);
+            string[] sarr = s.Split();
             Console.WriteLine(s);
 
             string s2 = "Shanaya";
@@ -76,6 +84,42 @@ namespace MyProject1.StringPrograms
 
                 }
             }
+        }
+    }
+    class Split1
+    {
+        static void Main(string[] args)
+        {
+            string s = "My Name is Sneha";
+            char[] a = s.ToCharArray();
+            string[] arr = s.Split();
+            Console.WriteLine(a);
+            Console.WriteLine(arr);
+            string s1 = "Aniket";
+            s1 = s1.Replace("i", "z");
+            Console.WriteLine(s1);
+
+        }
+    }
+    class Split2
+    {
+        static void Main(string[] args)
+        {
+            string s1 = "Ankita";
+            s1 = s1.Replace('a', 'e');
+            Console.WriteLine(s1);
+            Console.WriteLine("Enter tne Name");
+            string nm = Console.ReadLine();
+            int i = 1;
+            string n = nm.Substring(0, i) + nm.Substring(i + 1);
+            Console.WriteLine(n);
+            char[] a = nm.ToCharArray();
+            string[] sa = nm.Split();
+            foreach (char ch in a)
+                Console.Write(ch);
+            Console.WriteLine();
+            foreach(string s2 in sa)
+                Console.WriteLine(s2);
         }
     }
 

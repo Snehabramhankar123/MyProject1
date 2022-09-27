@@ -19,8 +19,8 @@ namespace MyProject1.ARRAYPrograms.ArrayAssignment1
                 else
                     o++;
             }
-                int[] even = new int[e];
-                int[] odd = new int[o];
+            int[] even = new int[e];
+            int[] odd = new int[o];
             e = 0;
             o = 0;
             for (int i = 0; i < arr.Length; i++)
@@ -38,38 +38,24 @@ namespace MyProject1.ARRAYPrograms.ArrayAssignment1
                         o++;
                     }
                 }
-            }
-                //Console.WriteLine(even[e]);
-                //Console.WriteLine(odd[o]);
-               /* int[] merg = new int[pc + nc];
-                nc = 0;
-                for (int i = 0; i < merg.Length; i++)
-                {
-                    if (i < other.Length && i < neg.Length)
-                    {
-                        merg[nc] = neg[i];
-                        nc++;
-                        merg[nc] = other[i];
-                        nc++;
-                    }
-                    else if (i < other.Length)
-                    {
-                        merg[nc] = other[i];
-                        nc++;
-                    }
-                    else if (i < neg.Length)
-                    {
-                        merg[nc] = neg[i];
-                        nc++;
-                    } 
-                }
 
-            }   */         
+
+                Console.WriteLine(arr[i] + " ");
+
+                Console.WriteLine(even[e]);
+                Console.WriteLine(odd[o]);
+            }
+
+
+
+        }
+              
+                        
 
 
             
 
 
-        }
+        
     }
 }

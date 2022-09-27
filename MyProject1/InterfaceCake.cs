@@ -5,9 +5,9 @@ using System.Text;
 namespace MyProject1
 {
      interface Cake
-    {
+     {
         void bake();
-    }
+     }
     class Strawberry :  Cake
     { public  void bake ()
         {

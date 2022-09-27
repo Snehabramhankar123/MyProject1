@@ -28,9 +28,10 @@ namespace MyProject1.ARRAYPrograms
             }
         }
             static void Main(string[] args)
-        {
+            {
             int[] arr = { 12, 4, 5, -3, -5, 90, 80, 70, -12 };
             int[] b = new int[arr.Length];
+            int[] c = new int[b.Length + arr.Length];
             int p = 0, n = 0;
             int k = 0;//to track new array
             while (k < arr.Length)
@@ -56,10 +57,13 @@ namespace MyProject1.ARRAYPrograms
                     n++;
                 }
             }
-            int[] merg = new int[p + n];
-            n = 0;
-            for (int i = 0; i < merg.Length; i++)
+            
+            
+            for (int i = 0; i < c.Length; i++)
             {
+                Console.WriteLine(c[i]+" ");
+            }
+            
                /* if (i < other.Length && i < n.Length)
                 {
                     merg[n] = n[i];
@@ -87,7 +91,7 @@ namespace MyProject1.ARRAYPrograms
             //   }
             //   }
 
-        }
+        
 
     }
 
