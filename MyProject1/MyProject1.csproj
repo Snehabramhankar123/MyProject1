@@ -5,7 +5,7 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
 
 
-	  <StartupObject>MyProject1.ARRAYPrograms.AlternatePosNeg</StartupObject>
+	  <StartupObject>MyProject1.StringDEMO.LongestString</StartupObject>
 	  
 	  
 
