@@ -13,7 +13,7 @@ namespace MyProject1.ARRAYPrograms
             for (int i = 0; i < a.Length; i++)
             {
                 int c = 0;
-                for (int j = 0; j < 6; j++)
+                for (int j = 0; j < b.Length; j++)
                 {
                     if (a[i] == b[j])
                         c++;

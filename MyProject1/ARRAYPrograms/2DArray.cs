@@ -26,7 +26,7 @@ namespace MyProject1.ARRAYPrograms
             {
                 for (int c = 0; c < a.GetLength(1); c++)
                 {
-                    Console.WriteLine(a[r, c] + " ");
+                    Console.Write(a[r, c] + " ");
                 }
                 Console.WriteLine();
             }

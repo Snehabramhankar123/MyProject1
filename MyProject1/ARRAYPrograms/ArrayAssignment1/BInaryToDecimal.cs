@@ -7,7 +7,7 @@ namespace MyProject1.ARRAYPrograms.ArrayAssignment1
     class BInaryToDecimal
     {
         static void BinaryToDecimal()
-        {
+        {  //0101
             int result = 0, r, n, d, i = 1;
             Console.WriteLine("Enter Binary Number");
             n = int.Parse(Console.ReadLine());

@@ -11,13 +11,13 @@ namespace MyProject1.ARRAYPrograms
             int[] a = new int[10];
             int  f, n;
             Console.WriteLine("Enter the Elements");
-            for ( int i = 0; i < 10; i++)
+            for ( int i = 0; i < a.Length; i++)
                 a[i] = int.Parse(Console.ReadLine());
-            for( int i=0; i<10; i++)
+            for( int i=0; i<a.Length; i++)
             {
                 n = a[i];
                 f = 0;
-                for ( int j = 2; j < n  ; j++)
+                for ( int j = 2; j < n/2  ; j++)
                 {
                     if (n % j == 0)
                         f = 1;

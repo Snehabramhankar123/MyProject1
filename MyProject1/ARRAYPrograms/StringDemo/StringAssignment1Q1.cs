@@ -10,10 +10,17 @@ namespace MyProject1.ARRAYPrograms.StringDemo
         {
 
 
-            string s = "Sneha Bramhankar";
+            string s = "Sneha is in Nagpur";
             string s1 = s.ToLower();
-           // string [] t = s.ToCharArray();
+            char [] arr = s.ToCharArray();
             string [] s2 = s.Split();
+            Console.WriteLine(arr);
+            Console.WriteLine(s1);
+            foreach (char ch in s) 
+            Console.WriteLine(ch);
+            foreach (char ch in s)
+           Console.WriteLine(ch);
+
 
         }
 

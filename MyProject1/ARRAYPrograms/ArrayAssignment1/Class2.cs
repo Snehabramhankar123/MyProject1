@@ -27,12 +27,13 @@ namespace MyProject1.ARRAYPrograms.ArrayAssignment1
             Console.WriteLine("Enter new data to be added");
             int data = int.Parse(Console.ReadLine());
             Console.WriteLine("Enter index/position where new element is to be inserted");
-            int idx = int.Parse(Console.ReadLine());
+            int  idx = int.Parse(Console.ReadLine());
             if (idx > size)
                 Console.WriteLine("Invalid Position ");
             else if (idx == size)
                 arr[idx] = data;
             else
+
             {
                 int j = size - 1;
                 while (j >= idx)
@@ -43,11 +44,11 @@ namespace MyProject1.ARRAYPrograms.ArrayAssignment1
                 arr[idx] = data;
                 size++;
             }
-           //  for(int i=0; i< size; i++)
-           //  {
-           //     Console.WriteLine(arr[i]);
-           //  }
-            MyArray<int>.Print(arr);
+            for(int i=0; i< arr.Length; i++)
+            {
+               Console.WriteLine(arr[i]);
+            }
+           // MyArray<int>.Print(arr);
 
             
 

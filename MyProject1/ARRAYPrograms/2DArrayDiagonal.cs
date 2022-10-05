@@ -9,6 +9,11 @@ namespace MyProject1.ARRAYPrograms
         static void Main(string[] args)
         {
             int[,] arr = new int[3, 3];
+            Console.WriteLine("Enter the Size");
+            int size = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter the  column Elements ");
+            int data = int.Parse(Console.ReadLine());
+            
             for (int i = 0; i < arr.GetLength(0); i++)
             {
                 for (int j = 0; j < arr.GetLength(1); j++)
@@ -44,6 +49,12 @@ namespace MyProject1.ARRAYPrograms
     {
         static void Main(string[] args)
         {
+           // int[,] arr = new int[3, 3];
+            Console.WriteLine("Enter the Size");
+            int size = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter the  column Elements ");
+            int data = int.Parse(Console.ReadLine());
+
             int[,] arr = new int[3, 3];
             for (int i = 0; i < arr.GetLength(0); i++)
             {

@@ -25,14 +25,15 @@ namespace MyProject1.ARRAYPrograms.ArrayAssignment1
             bool b = a1.IsPrime(5);
 
             int[] a = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
-            int c = 0; int n;
+            int c = 0; //int n;
             for (int i = 0; i < a.Length; i++)
             {
                 // if(bool b == true)
-            }
 
-            //bool b = IsPrime(n);
-            // Console.Write(a[i]);
+
+                // bool b = a1.IsPrime(n);
+                Console.Write(a[i]);
+            }
         }
     }
     class PrimeArray

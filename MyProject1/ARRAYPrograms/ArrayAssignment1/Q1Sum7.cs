@@ -14,14 +14,19 @@ namespace MyProject1.ARRAYPrograms.ArrayAssignment1
                 for (int j = i + 1; j < arr.Length; j++)
                 {
                     if ((arr[i] + arr[j]) == sum)
+                    {
                         count++;
-                }
-                    
-                
+                        
 
+
+                     Console.WriteLine($"Sum of Pair is :({arr[i]},{arr[j]}) ");
+                    }
+                }
+                
             }
             Console.WriteLine("Count of pairs is " + count);
-           // Console.WriteLine(arr[i]+arr[j]);
+          
+          
 
             
         }

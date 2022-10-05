@@ -17,6 +17,19 @@ namespace MyProject1.StringDEMO
             {
                 Console.WriteLine();
             }
+            int[] a = { 1, 2, 55, 23, 45 };
+            int max = a[0];
+            int min = a[0];
+            for(int i=0; i<5; i++)
+            {
+                if (max < a[i])
+                    max = a[i];
+                if (min > a[i])
+                    min = a[i];
+            }
+            Console.WriteLine("Max Number is "+ max);
+            Console.WriteLine("Min Number is " + min);
+           
         }
     }
 }

@@ -8,21 +8,27 @@ namespace MyProject1.ARRAYPrograms
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter the Size");
-            int n= int.Parse(Console.ReadLine());
-            int[] m = new int[n];
-            Console.WriteLine("Enter 5 Elemets");
-            for(int i=0; i<n; i++)
+             
+            Console.WriteLine("Enter Size");
+            int size = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter Elemets");
+            int ele = int.Parse(Console.ReadLine());
+            int n;
+                    
+                int[] m = new int[5];
+
+            
+            for (int i=0; i<m.Length; i++)
             {
-                m[i] = int.Parse(Console.ReadLine());
-                if (m[i] % 5 == 0)
-                {
-                    Console.WriteLine(m[i]);
-                }
-                else
-                {
-                    Console.WriteLine("Not Divisible by 5");
-                }
+                //m[i] = int.Parse(Console.ReadLine());
+                if (m[i] % 5 ==0)
+                
+                    Console.Write(m[i]);
+                
+               
+                
+            
+                
 
             }
         }

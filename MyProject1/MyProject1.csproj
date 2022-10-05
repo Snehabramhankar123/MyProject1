@@ -5,7 +5,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
 
 
-	  <StartupObject>MyProject1.StringDEMO.LongestString</StartupObject>
+	  <StartupObject>MyProject1.Prorigo.CukooSeries</StartupObject>
+	  
 	  
 	  
 
@@ -19,7 +20,7 @@
 
   <ItemGroup>
     <Folder Include="ARRAYPrograms\NewFolder2\" />
-    <Folder Include="NewFolder\" />
+    <Folder Include="bin\Prorigo\" />
   </ItemGroup>
 
 </Project>

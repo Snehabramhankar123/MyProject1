@@ -14,6 +14,9 @@ namespace MyProject1.ARRAYPrograms
         }
         static void Main(string[] args)
         {
+            Console.WriteLine("Enter CostPrice");
+            Console.WriteLine("Enter Profit");
+            Console.WriteLine("Enter no_of_item");
             int costprice = int.Parse(Console.ReadLine());
             int profit = int.Parse(Console.ReadLine());
             int no_of_item = int.Parse(Console.ReadLine());

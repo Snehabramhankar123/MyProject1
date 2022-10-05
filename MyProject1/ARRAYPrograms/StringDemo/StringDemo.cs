@@ -99,8 +99,10 @@ namespace MyProject1.ARRAYPrograms.NewFolder1
     }
     class Toggle
     {
-        public void toggle(string s)
+        public void Togle(string s)
         {
+          //  Console.WriteLine("Enter the Name");
+          //  string ss = Console.ReadLine();
             string charrr = "";
             for (int i = 0; i < s.Length; i++)
             {
@@ -118,7 +120,10 @@ namespace MyProject1.ARRAYPrograms.NewFolder1
         static void Main(string[] args)
         {
             Toggle t1 = new Toggle();
-          //  Console.WriteLine( t1.charrr);
+            t1.Togle("DeePAs");
+            Console.WriteLine("Enter the Name");
+            string ss = Console.ReadLine();
+            //  Console.WriteLine( t1.charrr);
         }
         
 

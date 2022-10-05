@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MyProject1.ARRAYPrograms.ArrayAssignment1
 {
-    class ArrayFibbo
+    class Fibbo
     {
         static void Main(string[] args)
         {
@@ -20,7 +20,7 @@ namespace MyProject1.ARRAYPrograms.ArrayAssignment1
 
                 Console.WriteLine(a);
 
-                int[] arr = new int[5];
+                int[] arr = new int[10];
                 Console.WriteLine(arr[i]);
 
             }
