@@ -5,7 +5,7 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
 
 
-	  <StartupObject>MyProject1.Prorigo.CukooSeries</StartupObject>
+	  <StartupObject>MyProject1.Prorigo.Ap1</StartupObject>
 	  
 	  
 	  

@@ -8,7 +8,7 @@ namespace MyProject1.Prorigo
     {
         static bool isCoprime(int a, int b)
         { int gcd = 1;
-            for(int i=0; i<=a && i>=b; i++)
+            for(int i=1; i<=a && i<=b; i++)
             {
                 if(a%i==0 && b%i == 0)
                 {
@@ -25,15 +25,15 @@ namespace MyProject1.Prorigo
             Console.WriteLine("Enter the Number");
             int n1 = int.Parse(Console.ReadLine());
             int c = 0;
-            for (int i = 0; i < n1; i++)
+            for (int i = 1; i < n1; i++)
             {
                 if (isCoprime(i, n1))
                 {
-                    Console.WriteLine($"The Coprime Pair is:({i},{n1})");
                     c++;
+                    Console.WriteLine($"The Coprime Pair is:({i},{n1})");
                 }
             }
-            Console.WriteLine("The no. of Pair is:" +c);
+            Console.WriteLine("The no. of CoPrime Pair is:" +c);
 
             
             

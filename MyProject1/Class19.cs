@@ -39,11 +39,13 @@ namespace MyProject1
         static void Main(string[] args)
         {
             Combine1n2 c = new Combine1n2();
+            Console.WriteLine("Enter the Number");
             int num = int.Parse(Console.ReadLine());
             int d = int.Parse(Console.ReadLine());
-            c.number(num, d);
+            c.number(12346, 5);
+            Console.WriteLine();
             int num1 = int.Parse(Console.ReadLine());
-            c.number(num1);
+            c.number(11);
 
         }
     } 

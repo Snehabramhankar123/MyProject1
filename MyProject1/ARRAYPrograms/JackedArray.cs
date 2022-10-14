@@ -13,6 +13,7 @@ namespace MyProject1.ARRAYPrograms
             jarr[1] = new int[2];
             jarr[2] = new int[5];
 
+
             //for(int i=0; i< arr.GetLength(0)); 
 
             for (int i = 0; i < jarr.GetLength(0); i++)

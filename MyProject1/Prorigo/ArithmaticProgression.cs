@@ -29,11 +29,50 @@ namespace MyProject1.Prorigo
                 Console.WriteLine("Enter Nth term");
                 int N = int.Parse(Console.ReadLine());
                 int Nth_Term;
-                int a = 2; int d = 1;
+                int a = 2;  int d = 1;
                 Nth_Term = a + (N - 1) * d;
                 Console.WriteLine("The"+N+"th term of the series is:" +Nth_Term);
             }
         }
+    class Arithmaticprogression
+    {
+        static void Main(string[] args)
+        {
+            int a2 = int.Parse(Console.ReadLine());
+            int a3 = int.Parse(Console.ReadLine());
+            int n = int.Parse(Console.ReadLine());
+            int d = a3 - a2;
+            //a2 = 2; a3 = 3; n = 4;
+            for (int i = 4; i <= n; i++)
+            {
+                a3 = a3 + d;
+            }
+            Console.WriteLine(a3);
+            Console.WriteLine("Nth term is :" + a3);
+        }
+
+    }
+    class Ap1
+    {
+        public int nthTerm(int input1,int  input2,  int input3)
+        {
+            int d = input2 - input1;
+            for (int i = 4; i <= input3; i++)
+            {
+                input2 = input2 + d;
+            }
+            return input2;
+        }
+        static void Main(string[] args)
+        {
+            Ap1 o = new Ap1();
+            o. nthTerm(1,2,4);
+            Console.WriteLine("Nth term is : " +o.nthTerm(1,2,4));
+            Console.WriteLine(o.nthTerm(5,8,4));
+        }
+    }
+}
+   
 
         
 
@@ -41,4 +80,4 @@ namespace MyProject1.Prorigo
  
         
     
-}
+
