@@ -5,7 +5,7 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
 
 
-	  <StartupObject>MyProject1.Prorigo.Ap1</StartupObject>
+	  <StartupObject>MyProject1.Program</StartupObject>
 	  
 	  
 	  
@@ -14,6 +14,7 @@
 
 </PropertyGroup>
 
+	
   <ItemGroup>
     <Compile Remove="Test10SeptOOPS" />
   </ItemGroup>
@@ -21,6 +22,10 @@
   <ItemGroup>
     <Folder Include="ARRAYPrograms\NewFolder2\" />
     <Folder Include="bin\Prorigo\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.4" />
   </ItemGroup>
 
 </Project>

@@ -29,13 +29,13 @@ namespace MyProject1.ARRAYPrograms
             for (int i = 0; i < a.Length; i++)
             {
                 int c = 0;
-                for (int j = 0; j < 6; j++)
+                for (int j = 0; j <b.Length ; j++)
                 {
                     if (a[i] == b[j])
                         c++;
                 }
                 if (c == 0)
-                    Console.WriteLine("Uncommon Element " + a[i]);
+                    Console.WriteLine("Uncommon Element :" + a[i]);
             }
             for(int i=0; i<b.Length; i++)
             {

@@ -29,23 +29,24 @@ namespace MyProject1.Test10SeptOOPS
                 int r = n1 % 10;
                 if (r % 2 == 0)
                 {
-                    sum = sum + r;
-
+                    // sum = sum + r;
+                    sum++;
                 }
                 n1 = n1 / 10;
+            }
                 Console.WriteLine("Sum of Even Number is = " + sum);
 
-            }
+            
         }
         static void Main(string[] args)
         {
             Console.WriteLine("Enter the Number");
             Frequency f = new Frequency();
-            int num = int.Parse(Console.ReadLine());
-            int d = int.Parse(Console.ReadLine());
-            f.number(num, d);
-            int num1 = int.Parse(Console.ReadLine());
-            f.number(num1);
+          //  int num = int.Parse(Console.ReadLine());
+           // int d = int.Parse(Console.ReadLine());
+            f.number(1122446, 1345);
+            //int num1 = int.Parse(Console.ReadLine());
+            f.number(4567);
         }
         
 

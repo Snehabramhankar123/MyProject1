@@ -8,7 +8,7 @@ namespace MyProject1.ARRAYPrograms.ArrayAssignment1
     {
         public bool IsPrime(int n)
         {
-            for (int i = 0; i < n / 2; i++)
+            for (int i = 2; i < n / 2; i++)
             {
                 if (n % i == 0)
                 {
@@ -37,26 +37,28 @@ namespace MyProject1.ARRAYPrograms.ArrayAssignment1
         }
     }
     class PrimeArray
+    
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter the Size of Array");
-            int size = int.Parse(Console.ReadLine());
-            Console.WriteLine("Enter the Elements of an Array");
-            int n = int.Parse(Console.ReadLine());
-            int[] arr = new int[100];
+            // Console.WriteLine("Enter the Size of Array");
+            // int size = int.Parse(Console.ReadLine());
+            //  Console.WriteLine("Enter the Elements of an Array");
+            //  int n = int.Parse(Console.ReadLine());
+            // int[] arr = new int[100];
+            int[] arr = { 1, 2, 3, 5, 67, 8, 9 };
             
-            for(int i= 0; i< n; i++)
+            for(int i= 0; i< arr.Length; i++)
             {
                 arr[i] = int.Parse(Console.ReadLine());
             }
             Console.WriteLine("Array is :");
-            for(int i=0; i< n; i++)
+            for(int i=0; i< arr.Length; i++)
             {
                 Console.WriteLine("\t" ,arr[i]);
             }
             Console.WriteLine("All the Prime Numbers in Array are");
-            for(int i=0; i<n; i++)
+            for(int i=0; i<arr.Length; i++)
             {
                 int counter = 0;
                 for(int j=2; j<arr[i];j++)

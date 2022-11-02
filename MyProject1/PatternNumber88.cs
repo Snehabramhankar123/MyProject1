@@ -59,5 +59,36 @@ namespace MyProject1
             Console.WriteLine("Age: " + obj.StudentAge);
         }
     }
-      
+    class Overload
+    {
+        public void m1(int a)
+        {
+
+        }
+        public void m1(float a)
+        {
+
+        }
+        public void m1(string a)
+        {
+
+        }
+        public void m1(int a, int b)
+        {
+
+        }
+        public void m1(float a,int b)
+        {
+
+        }
+        public void m1(int a, int b, float c)
+        {
+
+        }
+    }
+    //Method Overloading Rules
+    //1. having differnt returntypes.
+    //2.Have different access modifiers.
+    // 3.  Throw different checked or unchecked exceptions.
+
 }

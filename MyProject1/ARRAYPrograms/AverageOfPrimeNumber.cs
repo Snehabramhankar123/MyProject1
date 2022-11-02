@@ -55,6 +55,44 @@ namespace MyProject1.ARRAYPrograms
 
             }
         }
+    class Demo
+    {  // static bool isPrime(int n)
+      ///  {
+           //// for(int i = 2;i<n/2; i++)
+         //   {
+              //  if (n % i == 0)
+                  //  return false;
+            //}
+           // return true;
+      //  }
+
+        static void Main(string[] args)
+        {
+            int[] arr = { 4, 5, 9, 11, 7, 20 };
+            int sum = 0; int count = 0;
+            for (int i = 0; i < arr.Length; i++)
+            {
+                if (isPrime(arr[i]))
+                {
+                    sum = sum + arr[i];
+                    count++;
+
+                }
+
+                Console.WriteLine(+count);
+            }
+            
+        }
+        static bool isPrime(int n)
+        {
+            for (int i = 2; i < n / 2; i++)
+            {
+                if (n % i == 0)
+                    return false;
+            }
+            return true;
+        }
+    }
     
 }
 

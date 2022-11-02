@@ -22,7 +22,7 @@ public bool IsPrime(int num)
             PrimeNumber m = new PrimeNumber();
             Console.WriteLine("Enter num");
             int n = int.Parse(Console.ReadLine());
-            bool b1 = m.IsPrime(n);
+            bool b1 = m.IsPrime(5);
             Console.WriteLine(b1);
                 
         }
