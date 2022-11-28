@@ -28,16 +28,16 @@ namespace MyProject1.StringPrograms
         {
 
 
-            static void Main(string[] args)
-            {
+            //static void Main(string[] args)
+            //{
 
 
-                string s = "Sneha Bramhankar ";
-                int i = 2;
-                 string s1 = s.Substring(0, i) + s.Substring(i + 1);
-              Console.WriteLine(s1);
+            //    string s = "Sneha Bramhankar ";
+            //    int i = 2;
+            //     string s1 = s.Substring(0, i) + s.Substring(i + 1);
+            //  Console.WriteLine(s1);
 
-            }
+            //}
         }
     class Split
     {
@@ -88,18 +88,18 @@ namespace MyProject1.StringPrograms
     }
     class Split1
     {
-        static void Main(string[] args)
-        {
-            string s = "My Name is Sneha";
-            char[] a = s.ToCharArray();
-            string[] arr = s.Split();
-            Console.WriteLine(a);
-            Console.WriteLine(arr);
-            string s1 = "Aniket";
-            s1 = s1.Replace("i", "z");
-            Console.WriteLine(s1);
+        //static void Main(string[] args)
+        //{
+        //    string s = "My Name is Sneha";
+        //    char[] a = s.ToCharArray();
+        //    string[] arr = s.Split();
+        //    Console.WriteLine(a);
+        //    Console.WriteLine(arr);
+        //    string s1 = "Aniket";
+        //    s1 = s1.Replace("i", "z");
+        //    Console.WriteLine(s1);
 
-        }
+        //}
     }
     class Split2
     {
@@ -120,7 +120,20 @@ namespace MyProject1.StringPrograms
             Console.WriteLine();
             foreach(string s2 in sa)
                 Console.WriteLine(s2);
+            Console.WriteLine("Cricket is a Religion in India ");
+            string ss = Console.ReadLine();
+            string str = ss.Substring(0, 8);
+            Console.WriteLine(ss);
         }
+    }
+    class StringDemo2
+    {
+        //static void Main(string[] args)
+        //{ 
+        //  string s = "Cricket is Religion in India";
+        //    string s4 = s.Substring(0, 10);
+        //    Console.WriteLine(s4);
+        //}
     }
 
         

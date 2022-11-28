@@ -27,5 +27,29 @@ namespace MyProject1.ARRAYPrograms.ArrayAssignment1
 
         }
     }
+    class Array1
+    {
+        static void Main(string[] args)
+        {
+           int[] arr = { 1, 2, 3, 4, 5, 6 };
+            for (int i = 0; i < arr.Length; i++)
+            {
+                Console.WriteLine(arr[i]);
+            }
+        }
+    }
+    class Program1
+    {
+        static void Main(string[] args)
+        {
+            string s;
+            Console.WriteLine("Hello World");
+            s = Console.ReadLine();
+            Console.WriteLine();
+            Console.ReadLine();
+
+        }
+    }
+
 }
 

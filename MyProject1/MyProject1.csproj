@@ -5,7 +5,7 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
 
 
-	  <StartupObject>MyProject1.Program</StartupObject>
+	  <StartupObject>MyProject1.ARRAYPrograms.PrimeList</StartupObject>
 	  
 	  
 	  
@@ -20,8 +20,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="ARRAYPrograms\NewFolder2\" />
     <Folder Include="bin\Prorigo\" />
+    <Folder Include="NewFolder\" />
   </ItemGroup>
 
   <ItemGroup>

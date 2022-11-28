@@ -27,9 +27,7 @@ namespace MyProject1.StringDEMO
                 if (min > a[i])
                     min = a[i];
             }
-            Console.WriteLine("Max Number is "+ max);
-            Console.WriteLine("Min Number is " + min);
-           
+          
         }
     }
 }
