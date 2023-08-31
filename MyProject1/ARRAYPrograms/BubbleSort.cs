@@ -9,7 +9,9 @@ namespace MyProject1.ARRAYPrograms
     {
         static void Main(string[] args)
         {
-            int[] arr = { 12, 3, 45, 67, 34, 21, 89, 5 };
+            //int[] arr = { 12, 3, 45, 67, 34, 21, 89, 5 };
+          //  int[] arr = { 1, 23, 56, 78, 90, 234, 890 };
+            int[] arr = { 56, 2, 45, 67, 11, 34, 8, 66, 22 };
             for (int i = 0; i < arr.Length; i++)
                 Console.Write(arr[i] + " ");
             int max = int.MinValue;

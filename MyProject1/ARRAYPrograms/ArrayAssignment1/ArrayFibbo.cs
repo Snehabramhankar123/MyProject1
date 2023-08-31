@@ -11,15 +11,12 @@ namespace MyProject1.ARRAYPrograms.ArrayAssignment1
             int a = 0; int b = 1;
             int c = a + b;
             for (int i = 0; i <= 10; i++)
-            {
-
+            { 
                 a = b;
 
+                Console.WriteLine(a);
                 b = c;
                 c = a + b;
-
-                Console.WriteLine(a);
-
                 int[] arr = new int[10];
                 Console.WriteLine(arr[i]);
 

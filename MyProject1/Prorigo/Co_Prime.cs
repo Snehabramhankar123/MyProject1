@@ -6,13 +6,10 @@ namespace MyProject1.Prorigo
 {
     
     class CoPrime1
-    {
-        static int Coprime(int a, int b)
-        {
-            // Everything divides 0
-            if (a == 0 || b == 0)
-                return 0;
-
+    { 
+         static int Coprime(int a, int b)
+         { 
+       
             // base case
             if (a == b)
                 return a;
@@ -21,8 +18,15 @@ namespace MyProject1.Prorigo
             if (a > b)
                 return Coprime(a - b, b);
             else
-            return Coprime(a, b - a);
-        }
+                return Coprime(a, b - a);
+
+
+            // Everything divides 0
+            if (a == 0 || b == 0)
+                return 0;
+
+                
+         }
         static void Main(string[] args)
         {
             Console.WriteLine("Enter two Numbers");
@@ -35,7 +39,21 @@ namespace MyProject1.Prorigo
         }
 
     }
+    class Pattern
+    {
+        static void Main(string[] args)
+        {
+            for (int i = 1; i <= 5; i++) //row
+            {
+                for (int j = 1; j <= i; j++) // column
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine();
+            }
 
+        }
+    }
 
         
     

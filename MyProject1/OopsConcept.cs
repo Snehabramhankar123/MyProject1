@@ -15,12 +15,15 @@ namespace MyProject1
             set { id= value; }
             get { return id; }
         }
+      //  public string Id
+       // public string Name
+        
         
          public string Name
-        { 
+         { 
             set { name = value; }
             get { return name; }
-        }
+         }
         public int Salary
         { 
             set { salary = value; }

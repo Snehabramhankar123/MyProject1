@@ -5,9 +5,10 @@ using System.Text;
 namespace MyProject1
 {
     class IsPrime
-    {   public bool isPrime(int nm)
+    {
+        public bool isPrime(int nm)
         {
-            for (int i = 2; i <= nm/2 ; i++)
+            for (int i = 2; i <= nm / 2; i++)
             {
                 if (nm % i == 0)
                     return false;

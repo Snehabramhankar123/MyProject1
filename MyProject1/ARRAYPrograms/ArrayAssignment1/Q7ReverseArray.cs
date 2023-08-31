@@ -9,9 +9,9 @@ namespace MyProject1.ARRAYPrograms.ArrayAssignment1
         static void Main(string[] args)
         {
             int[] arr = { 3, 90, 45, 29, 37, 78 };
-            for (int i = 5; i >=0; i--)
+            for (int i = 5; i >= 0; i--)
             {
-                Console.WriteLine (arr[i] + " " );
+                Console.WriteLine(arr[i] + " ");
             }
         }
     }
@@ -20,6 +20,9 @@ namespace MyProject1.ARRAYPrograms.ArrayAssignment1
         static void Main(string[] args)
         {
             int[] arr = { 3, 90, 45, 29, 37, 78 };
+
+
+
             int start = 0;
             int end = 5;
             int temp = 0;
@@ -35,9 +38,13 @@ namespace MyProject1.ARRAYPrograms.ArrayAssignment1
             {
                 Console.Write(arr[i] + " ");
             }
-
-
         }
     }
 }
+
+
+
+        
+    
+
 

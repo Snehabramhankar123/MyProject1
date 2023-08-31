@@ -10,7 +10,7 @@ namespace MyProject1.ARRAYPrograms.ArrayAssignment1
         {
             int[] arr = { 1, 2, 3, 4, 5, 1, 1, 2, 8, 2, 1, 3 };
             for (int i = 0; i < current; i++)
-            {
+            { 
                 if (a[i] == a[current])
                     return true;
 
@@ -39,7 +39,7 @@ namespace MyProject1.ARRAYPrograms.ArrayAssignment1
                     }
                     Console.WriteLine($"Frequency of {arr[i]}={c}");
 
-
+                   
 
                 }
 

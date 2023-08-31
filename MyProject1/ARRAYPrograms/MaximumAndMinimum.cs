@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace MyProject1.ARRAYPrograms
 {
@@ -8,19 +6,21 @@ namespace MyProject1.ARRAYPrograms
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter Number");
+             Console.WriteLine("Enter the Numbers");
 
-            int[] a = new int[6];
-            for (int i = 0; i <= a.Length; i++)
+             int[] a = new int[6];
+            for (int i = 0; i < a.Length; i++)
             {
 
-                a[i] = int.Parse(Console.ReadLine());
+               a[i] = int.Parse(Console.ReadLine());
+
             }
+           // int[] a = { 1, 2, 3, 4, 5, 6, 77 };
             int min = a[0];
             int max = a[0];
-            for (int i = 0; i <= a.Length; i++)
+            for (int i = 0; i < a.Length; i++)
             {
-                if (min > a[i])
+                if (min>a[i])
                 {
                     min = a[i];
                 }

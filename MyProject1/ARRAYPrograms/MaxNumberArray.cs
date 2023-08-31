@@ -10,6 +10,7 @@ namespace MyProject1.ARRAYPrograms
         {
             Console.WriteLine("Enter Number");
            
+
             int[] Ar = new int[6];
             for (int i = 0; i <= 5; i++)
             {
@@ -19,8 +20,8 @@ namespace MyProject1.ARRAYPrograms
             int min = Ar[0];
             int max = Ar[0];
             for (int i=0; i<= 5; i++)
-            {
-                if (min > Ar[i])
+            {                if (min > Ar[i])
+
                 {
                     min = Ar[i];
                 }

@@ -22,7 +22,7 @@ namespace MyProject1.ARRAYPrograms.ArrayAssignment1
                         {
 
 
-                            int t = arr[j];
+                            int t = arr[j];          // 8998
                             arr[j] = arr[j + 1];
                             arr[j + 1] = t;
                         }

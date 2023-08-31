@@ -21,7 +21,7 @@ namespace MyProject1.ARRAYPrograms.ArrayAssignment1
             }
             Console.WriteLine("Decimal Equivalent {0} ", result);
         }
-            static void Main(string[] args)
+            static void Main(string[] args)                                                                       
             {
                BinaryToDecimal();
 

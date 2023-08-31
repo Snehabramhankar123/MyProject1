@@ -54,7 +54,7 @@ namespace MyProject1.Prorigo
     }
     class Ap1
     {
-        public int nthTerm(int input1,int  input2,  int input3)
+        public int NthTerm(int input1,int  input2,  int input3)
         {
             int d = input2 - input1;
             for (int i = 4; i <= input3; i++)
@@ -66,9 +66,9 @@ namespace MyProject1.Prorigo
         static void Main(string[] args)
         {
             Ap1 o = new Ap1();
-            o. nthTerm(1,2,4);
-            Console.WriteLine("Nth term is : " +o.nthTerm(1,2,4));
-            Console.WriteLine(o.nthTerm(5,8,4));
+            o. NthTerm(1,2,4);
+            Console.WriteLine("Nth term is : " +o.NthTerm(1,2,4));
+            Console.WriteLine(o.NthTerm(5,8,4));
         }
     }
 }

@@ -10,7 +10,7 @@ namespace MyProject1
         {
             Console.WriteLine("Enter the Lines");
             int lines = int.Parse(Console.ReadLine());
-            int count = 0;
+            int count = 0; 
             for(int r=1;r<=lines;r++)
             {
                 count++;

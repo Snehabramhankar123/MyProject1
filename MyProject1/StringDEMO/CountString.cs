@@ -8,6 +8,8 @@ namespace MyProject1.StringDEMO
     {
         public static int CountString(string s, string s1)
         {
+
+
             int count = 0; int i = 0;
             while ((i = s.IndexOf(s1, i)) != -1)
             {

@@ -25,6 +25,8 @@ namespace MyProject1.Prorigo
         }
         public static void Main(String[] args)
         {
+            Console.WriteLine("Enter the Number"); ;
+            int n = int.Parse(Console.ReadLine());
            // int n = 83557;
             //int n = 123456;
             if ((isMagic(83557)))

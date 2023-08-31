@@ -1,0 +1,39 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Data.SqlClient;
+
+namespace MyProject1
+{
+    
+ /*  // class Program123  
+ ///   {  
+       static void Main(string[]args)
+       {
+            new Program().Connecting();  
+       }  
+        public void Connecting()  
+        {  
+            SqlConnection con = null;  
+            try  
+            {  
+                // Creating Connection  
+                con = new SqlConnection("data source=.; database=student; integrated security=SSPI");  
+                con.Open();  
+                Console.WriteLine("Connection Established Successfully");  
+            }  
+            catch (Exception e)  
+            {  
+                Console.WriteLine("OOPs, something went wrong.\n"+e);  
+            }  
+            finally  
+            {   // Closing the connection  
+                con.Close();  
+            }  
+        }  
+    }  
+}   */
+
+
+    
+}

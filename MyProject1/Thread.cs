@@ -27,10 +27,11 @@ namespace MyProject1
             }
         }
     }
-    public class Program
-    {
+    public class TestThread
+    { 
         static void Main(string[] args)
         {
+    
             Test test = new Test();
             Thread t1 = new Thread(new ThreadStart(test.Run1));
             Thread t2 = new Thread(new ThreadStart(test.Run2));

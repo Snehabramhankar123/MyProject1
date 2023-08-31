@@ -2,8 +2,14 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MyProject1
-{
+namespace MyProject1 { 
+////                                                                  87654321
+////                                                                  7654321
+////                                                                  654321
+////                                                                  4321
+////                                                                  321
+////                                                                  21
+////                                                                  1
     class PatternNumber
     {
         static void Main(string[] args)

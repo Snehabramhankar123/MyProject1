@@ -9,7 +9,7 @@ namespace MyProject1.ARRAYPrograms.ArrayAssignment1
         static bool isAlreadyPresent(int[] a, int current)
         {
             int[] arr = { 1, 2, 3, 4, 5, 1, 1, 2, 8, 2, 1, 3 };
-            for (int i = 0; i <current ; i++)
+            for (int i = 0; i < current ; i++)
             {
                 if (a[i] == a[current])
                     return true;

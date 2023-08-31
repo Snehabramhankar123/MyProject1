@@ -18,7 +18,7 @@ namespace MyProject1.ARRAYPrograms
 
             //for(int i=0; i< arr.GetLength(0)); 
 
-            for (int i = 0; i < jarr.GetLength(0); i++)
+            for (int i = 0; i < jarr.GetLength(0); i++)  
             { 
                 
                 

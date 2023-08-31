@@ -8,11 +8,11 @@ namespace MyProject1.StringDEMO
     {
         static void Main(string[] args)
         {
-            string s = " abcde";
+            string s = "abcde";
             StringBuilder sb = new StringBuilder(s);
            Console.WriteLine(sb.Capacity);
             sb.Append("sneha");
-            sb.Append("90");
+            sb.Append("90"); 
             sb.Append("Deepa");
             sb.Append("Sakshi");
             sb.AppendLine("Rohini");

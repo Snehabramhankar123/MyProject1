@@ -5,6 +5,11 @@ using System.Text;
 namespace MyProject1
 {
     class Pattern112233
+   //*********
+    //*******
+ //    *****
+ //     ***
+ //      *
     {
         static void Main(string[] args)
         {
@@ -15,7 +20,7 @@ namespace MyProject1
                 {
                     Console.Write(" ");
                 }
-                for(int c= 2*r-1;c<=9;c++)
+                for(int c = 2*r-1;c<=9;c++)
                 {
                     Console.Write("*");
                 }

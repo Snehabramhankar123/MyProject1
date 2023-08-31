@@ -26,4 +26,13 @@ namespace MyProject1
             Console.WriteLine( sum );
         }
     }
+    class ASP
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello Scott");
+            
+        }
+    } 
+    
 }

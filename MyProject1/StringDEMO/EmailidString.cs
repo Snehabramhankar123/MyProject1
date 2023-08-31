@@ -10,10 +10,10 @@ namespace MyProject1.StringDEMO
         {
             Console.WriteLine("Enter the EmailID");
             string s = Console.ReadLine();
-            //bool s1 = s.Contains();
+           // bool s1 = s.Contains(@);
             int idx = s.IndexOf('@');
             Console.WriteLine(idx);
         }
       
-    }
+    }              
 }
